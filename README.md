@@ -77,8 +77,9 @@ The main purpose of the application is to read the air pollution information(CO,
 #### Log Examples
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Log.png"></img>
 
-#### User Token and Provided Id are not same Error
+#### User Token and Provided Id are not same Error
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error2.png"></img>
+
 
 
 
