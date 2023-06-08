@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.farukkavlak.akbankbootcamp.AkbankBootcampApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.519 s - in com.farukkavlak.akbankbootcamp.AkbankBootcampApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.142 s - in com.farukkavlak.akbankbootcamp.AkbankBootcampApplicationTests
