@@ -7,7 +7,6 @@
   &#8505; <a href="#project-details">Project Details</a> 
   &#8505; <a href="#technologies">Technologies</a> 
   &#8505; <a href="#project-requirements">Project Requirements</a> 
-  &#8505; <a href="#test">Test</a> 
   &#8505; <a href="#swagger-screenshots">Swagger Screenshots</a> 
 </p>
 
@@ -15,12 +14,10 @@
 https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase-Frontend
 
 ## Demo
-#### Since used free deployment services, there may be some delays in requests.
 https://user-images.githubusercontent.com/79375232/177862614-1692973a-f8d3-4a58-893a-40978c7559f7.mp4
 
 ## Project Details
-
-The main purpose of the application is to read the air pollution information(CO,O3,SO2 values) according to the City Name and Date Range using https://openweathermap.org/api, save it in the database and display it to the user.
+The main purpose of the application is to get the 5 day Weather Forecast according to the City Name by using https://openweathermap.org/api, save it in the database and display it to the user.
 
 ## Technologies
 <ul>
