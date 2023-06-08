@@ -17,6 +17,7 @@ https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase-Frontend
 ## Demo
 https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/assets/79375232/a2e5218b-0452-4e40-b31a-1801136af34c
 
+
 ## Project Details
 The main purpose of the application is to get the 5 day Weather Forecast according to the City Name by using https://openweathermap.org/api, save it in the database and display it to the user.
 
