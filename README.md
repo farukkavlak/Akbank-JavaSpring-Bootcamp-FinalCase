@@ -1,5 +1,5 @@
 # 
-<h1 align="center">Akbank Bootcamp Final Project Backend Part</h1>
+<h1 align="center">Akbank Bootcamp Final Project Backend/Server Side</h1>
 <h1 align="center">Ömer Faruk Kavlak</h1><br>
 
  <p align="center">
@@ -25,8 +25,8 @@ The main purpose of the application is to read the air pollution information(CO,
 ## Technologies
 <ul>
   <li>Frontend = ReactJS</li>
-  <li>Backend = Java Spring Boot </li>
-  <li>External Api = https://openweathermap.org/api</li>
+  <li>Backend = Java Spring Boot - Maven</li>
+  <li>Third Party API = https://openweathermap.org/forecast5 & https://openweathermap.org/api/geocoding-api </li>
   <li>Database = PostgreSQL</li>
 </ul>
 
@@ -46,11 +46,9 @@ The main purpose of the application is to read the air pollution information(CO,
 ## Swagger Screenshots
 #### Controller
 <img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Controller.png"></img>
-#### Schemas from Heroku
+#### Schemas
 <img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Schema1.png"></img>
 <img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Schema2.png"></img>
-#### PostgreSQL Database in Heroku
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/HerokuPostgreSQLDatabase.png"></img>
 
 #### Get Weather From Api and Log
 <img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApi.png"></img>
