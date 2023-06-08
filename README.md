@@ -39,6 +39,7 @@ The main purpose of the application is to read the air pollution information(CO,
 - The cities searched by users and their predictions will be kept in the db.✔️
 - Even if the requester is not registered, the estimates of the cities he called will be kept in the database.✔️
 - Error Handling.✔️
+- Loggin Mechanism.✔️
 
 ## Test
 - Tests were partial due to time constraints, only controls were tested
