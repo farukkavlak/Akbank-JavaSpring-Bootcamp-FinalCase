@@ -1,0 +1,5 @@
+com/farukkavlak/akbankbootcamp/config/H2TestProfileJPAConfig.class
+com/farukkavlak/akbankbootcamp/controller/UserControllerTest.class
+com/farukkavlak/akbankbootcamp/controller/WeatherControllerTest.class
+com/farukkavlak/akbankbootcamp/AkbankBootcampApplicationTests.class
+com/farukkavlak/akbankbootcamp/controller/AuthControllerTest.class

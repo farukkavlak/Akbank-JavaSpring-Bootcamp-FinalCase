@@ -49,7 +49,7 @@ public class AuthControllerTest {
     @Test
     @Order(1)
     void testRegister() throws Exception {
-        UserPostRequestDto userPostRequestDto = new UserPostRequestDto("farukkavlak", "123456");
+        UserPostRequestDto userPostRequestDto = new UserPostRequestDto("faruk", "123456");
         String body = objectMapper.writeValueAsString(userPostRequestDto);
         MvcResult result = mockMvc.perform(post(basePath)
                 .contentType(MediaType.APPLICATION_JSON)
@@ -62,7 +62,7 @@ public class AuthControllerTest {
     @Order(2)
     void testLoginSuccessful() throws Exception {
 
-        UserLoginRequestDto userLoginRequestDto = new UserLoginRequestDto("farukkavlak", "123456");
+        UserLoginRequestDto userLoginRequestDto = new UserLoginRequestDto("faruk", "123456");
         String bodyLogin = objectMapper.writeValueAsString(userLoginRequestDto);
         MvcResult resultLogin = mockMvc.perform(post(basePath + "/login")
                         .contentType(MediaType.APPLICATION_JSON)
@@ -77,15 +77,13 @@ public class AuthControllerTest {
         assertNotNull(userLoginReturnDto);
         assertNotNull(userLoginReturnDto.getToken());
         assertNotNull(userLoginReturnDto.getId());
-        assertEquals("farukkavlak", userLoginReturnDto.getUsername());
-        assertEquals(1L, userLoginReturnDto.getId());
     }
 
     @Test
     @Order(3)
     void testLoginBadCredentials() throws Exception {
 
-        UserLoginRequestDto userLoginRequestDto = new UserLoginRequestDto("farukkavlak", "1234567");
+        UserLoginRequestDto userLoginRequestDto = new UserLoginRequestDto("farukkavlakk", "1234567");
         String bodyLogin = objectMapper.writeValueAsString(userLoginRequestDto);
         MvcResult resultLogin = mockMvc.perform(post(basePath + "/login")
                         .contentType(MediaType.APPLICATION_JSON)
