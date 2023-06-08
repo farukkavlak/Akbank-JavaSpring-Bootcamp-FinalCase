@@ -45,40 +45,39 @@ The main purpose of the application is to read the air pollution information(CO,
 
 ## Swagger Screenshots
 #### Controller
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Controller.png"></img>
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Controllers.png"></img>
 #### Schemas
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Schema1.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Schema2.png"></img>
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Schemas.png"></img>
 
-#### Get Weather From Api and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApi.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiLog.png"></img>
+#### Get Weather From Api And Response
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/GetWeathers.png"></img>
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/WeathersResponse.png"></img>
 
-#### Get Weather From Db and then Api and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDb.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDbLog.png"></img>
+#### Register
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Register.png"></img>
 
-#### Get Weather From Api-Db-Api and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDbApi.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDbApiLog.png"></img>
+#### Login
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Login.png"></img>
+## Error
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error4.png"></img>
 
-#### Get Weather Without Date (Default last week)
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherWithoutDate.png"></img>
+#### Save City
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/SaveCity.png"></img>
+## Error / City is already exists condition
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error3.png"></img>
 
-#### Error - Restrict Date - Earlier than 27 November 2020 and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherError2.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherError2Log.png"></img>
+#### Delete City
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/DeleteCity.png"></img>
+## Error / City Not Found Condition
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error1.png"></img>
 
-#### Error - Last Date cannot be earlier than First Date
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherError.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherErrorLog.png"></img>
+#### Get Cities
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/GetCities.png"></img>
 
-#### Delete Weather
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/deleteWeather.png"></img>
+#### Log Examples
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Log.png"></img>
 
-#### Delete Weather Error - Doesn't Exists in DB 
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/deleteWeatherError.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/deleteWeatherErrorLog.png"></img>
+
 
 
 
