@@ -15,12 +15,10 @@
 https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase-Frontend
 
 ## Demo
-#### Since used free deployment services, there may be some delays in requests.
 https://user-images.githubusercontent.com/79375232/177862614-1692973a-f8d3-4a58-893a-40978c7559f7.mp4
 
 ## Project Details
-
-The main purpose of the application is to read the air pollution information(CO,O3,SO2 values) according to the City Name and Date Range using https://openweathermap.org/api, save it in the database and display it to the user.
+The main purpose of the application is to get the 5 day Weather Forecast according to the City Name by using https://openweathermap.org/api, save it in the database and display it to the user.
 
 ## Technologies
 <ul>
@@ -39,46 +37,51 @@ The main purpose of the application is to read the air pollution information(CO,
 - The cities searched by users and their predictions will be kept in the db.✔️
 - Even if the requester is not registered, the estimates of the cities he called will be kept in the database.✔️
 - Error Handling.✔️
+- Logging Mechanism.✔️
+- Feign(Open Feign) will be used for client.✔️
 
 ## Test
-- Tests were partial due to time constraints, only controls were tested
+- Tests were partial due to time constraints, only control test were implemented.
 
 ## Swagger Screenshots
 #### Controller
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Controller.png"></img>
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Controllers.png"></img>
 #### Schemas
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Schema1.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/Schema2.png"></img>
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Schemas.png"></img>
 
-#### Get Weather From Api and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApi.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiLog.png"></img>
+#### Get Weather From Api And Response
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/GetWeathers.png"></img>
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/WeathersResponse.png"></img>
 
-#### Get Weather From Db and then Api and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDb.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDbLog.png"></img>
+#### Register
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Register.png"></img>
 
-#### Get Weather From Api-Db-Api and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDbApi.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherFromApiDbApiLog.png"></img>
+#### Login
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Login.png"></img>
+#### Login Error
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error4.png"></img>
 
-#### Get Weather Without Date (Default last week)
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherWithoutDate.png"></img>
+#### Save City
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/SaveCity.png"></img>
+#### Save City Error / City is already exists condition
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error3.png"></img>
 
-#### Error - Restrict Date - Earlier than 27 November 2020 and Log
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherError2.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherError2Log.png"></img>
+#### Delete City
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/DeleteCity.png"></img>
+#### Delete CityError / City Not Found Condition
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error1.png"></img>
 
-#### Error - Last Date cannot be earlier than First Date
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherError.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/getWeatherErrorLog.png"></img>
+#### Get Cities
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/GetCities.png"></img>
 
-#### Delete Weather
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/deleteWeather.png"></img>
+#### Log Examples
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Log.png"></img>
 
-#### Delete Weather Error - Doesn't Exists in DB 
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/deleteWeatherError.png"></img>
-<img src="https://github.com/farukkavlak/MobileActionFinalBackend/blob/main/SwaggerUI/deleteWeatherErrorLog.png"></img>
+#### User Token and Provided Id are not same Error
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error2.png"></img>
+
+
+
 
 
 
