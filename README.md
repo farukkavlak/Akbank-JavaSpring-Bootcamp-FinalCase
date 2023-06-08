@@ -7,6 +7,7 @@
   &#8505; <a href="#project-details">Project Details</a> 
   &#8505; <a href="#technologies">Technologies</a> 
   &#8505; <a href="#project-requirements">Project Requirements</a> 
+  &#8505; <a href="#test">Test</a> 
   &#8505; <a href="#swagger-screenshots">Swagger Screenshots</a> 
 </p>
 
@@ -40,7 +41,7 @@ The main purpose of the application is to get the 5 day Weather Forecast accordi
 - Feign(Open Feign) will be used for client.✔️
 
 ## Test
-- Tests were partial due to time constraints, only controls were tested
+- Tests were partial due to time constraints, only control test were implemented.
 
 ## Swagger Screenshots
 #### Controller
