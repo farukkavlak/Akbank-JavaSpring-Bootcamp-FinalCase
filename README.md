@@ -58,17 +58,17 @@ The main purpose of the application is to read the air pollution information(CO,
 
 #### Login
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Login.png"></img>
-## Error
+#### Login Error
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error4.png"></img>
 
 #### Save City
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/SaveCity.png"></img>
-## Error / City is already exists condition
+#### Save City Error / City is already exists condition
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error3.png"></img>
 
 #### Delete City
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/DeleteCity.png"></img>
-## Error / City Not Found Condition
+#### Delete CityError / City Not Found Condition
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error1.png"></img>
 
 #### Get Cities
@@ -76,6 +76,9 @@ The main purpose of the application is to read the air pollution information(CO,
 
 #### Log Examples
 <img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Log.png"></img>
+
+#### User Token and Provided Id are not same Error
+<img src="https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase/blob/main/Screenshots/Error2.png"></img>
 
 
 
